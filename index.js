@@ -7,10 +7,6 @@ module.exports = {
   ],
   rules: {
     'no-async-without-await/no-async-without-await': 1,
-    semi: [
-      'error',
-      'never'
-    ],
     'comma-dangle': [
       'error',
       {

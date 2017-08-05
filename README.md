@@ -3,7 +3,7 @@
 ### Common
 
 ```
-$ npm i -D eslint-config-airbnb-base eslint-plugin-no-async-without-await eslint-plugin-import dgeibi/eslint-config-dgeibi
+$ npm i -D eslint-config-airbnb-base eslint-plugin-no-async-without-await eslint-plugin-import eslint-config-dgeibi
 ```
 
 For common projects, add this to your `.eslintrc`

@@ -1,10 +1,6 @@
 module.exports = {
-  extends: [
-    'airbnb-base'
-  ],
-  plugins: [
-    'no-async-without-await'
-  ],
+  extends: ['airbnb-base'],
+  plugins: ['no-async-without-await'],
   rules: {
     'no-async-without-await/no-async-without-await': 1,
     'comma-dangle': [
@@ -14,14 +10,15 @@ module.exports = {
         objects: 'always-multiline',
         imports: 'always-multiline',
         exports: 'always-multiline',
-        functions: 'never'
-      }
+        functions: 'never',
+      },
     ],
+    semi: ['error', 'never'],
     'no-use-before-define': [
       'error',
       {
-        functions: false
-      }
-    ]
-  }
+        functions: false,
+      },
+    ],
+  },
 }

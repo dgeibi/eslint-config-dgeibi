@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dgeibi",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "dgeibi's base JS ESLint config",
   "main": "index.js",
   "author": "dgeibi",

@@ -1,8 +1,6 @@
 module.exports = {
   extends: ['airbnb-base'],
-  plugins: ['no-async-without-await'],
   rules: {
-    'no-async-without-await/no-async-without-await': 1,
     'comma-dangle': [
       'error',
       {

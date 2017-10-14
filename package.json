@@ -1,19 +1,27 @@
 {
   "name": "eslint-config-dgeibi",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "dgeibi's base JS ESLint config",
   "main": "index.js",
   "author": "dgeibi",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^4.6.0",
-    "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-config-standard-preact": "^1.1.6",
+    "eslint-plugin-react": "^7.4.0",
+    "babel-eslint": "^8.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.6.0",
-    "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-config-standard-preact": "^1.1.6",
+    "eslint-plugin-react": "^7.4.0",
+    "babel-eslint": "^8.0.1"
   },
   "repository": {
     "type": "git",

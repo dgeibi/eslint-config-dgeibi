@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dgeibi",
-  "version": "3.0.6",
+  "version": "4.0.0",
   "description": "dgeibi's base JS ESLint config",
   "main": "index.js",
   "author": "dgeibi",
@@ -9,8 +9,6 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-config-standard-preact": "^1.1.6",
     "eslint-plugin-react": "^7.4.0",
     "babel-eslint": "^8.0.1"
   },
@@ -18,8 +16,6 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-config-standard-preact": "^1.1.6",
     "eslint-plugin-react": "^7.4.0",
     "babel-eslint": "^8.0.1"
   },
@@ -30,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/dgeibi/eslint-config-dgeibi/issues"
   },
-  "homepage": "https://github.com/dgeibi/eslint-config-dgeibi#readme"
+  "homepage": "https://github.com/dgeibi/eslint-config-dgeibi#readme",
+  "files": [
+    "rules/",
+    "index.js",
+    "legacy.js",
+    "preact.js",
+    "react.js"
+  ]
 }

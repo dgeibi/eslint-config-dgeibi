@@ -1,10 +1,6 @@
 module.exports = {
-  parser: 'babel-eslint',
-  extends: [require.resolve('.'), 'standard-react'],
+  extends: [require.resolve('.'), require.resolve('./rules/react')],
   env: {
     browser: true,
-  },
-  rules: {
-    'jsx-quotes': ['error', 'prefer-double'],
   },
 }

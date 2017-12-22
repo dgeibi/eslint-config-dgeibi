@@ -1,9 +1,6 @@
 module.exports = {
-  extends: [require.resolve('.'), 'standard-preact'],
+  extends: [require.resolve('.'), require.resolve('./rules/preact')],
   env: {
     browser: true,
-  },
-  rules: {
-    'jsx-quotes': ['error', 'prefer-double'],
   },
 }

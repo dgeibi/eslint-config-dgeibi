@@ -1,43 +1,53 @@
+# eslint-config-dgeibi
+
+ESLint Config base on `eslint-config-airbnb-base` without style rules.
+
 ## Install
 
-### Common
+### Common projects
+
+Install `eslint-config-dgeibi` and its peer dependencies:
 
 ```
-$ npm i -D eslint-config-airbnb-base eslint-plugin-no-async-without-await eslint-plugin-import eslint-config-dgeibi
+$ npm i -D eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-dgeibi babel-eslint
 ```
 
 For common projects, add this to your `.eslintrc`
 
-```
+``` json
 {
   "extends": ["dgeibi"]
 }
 ```
 
-### Preact projects
+For legacy projects:
 
-```
-$ npm i -D eslint-config-standard-preact eslint-plugin-react
-```
-
-add this to `.eslintrc`
-
-```
+``` json
 {
-  "extends": ["dgeibi/preact"]
+  "extends": ["dgeibi/legacy"]
 }
 ```
 
-### React projects
+### (p)react projects
+
+The configs are copying from eslint-config-standard-react and eslint-config-standard-preact.
+
+Need to install `eslint-plugin-react`:
 
 ```
-$ npm i -D eslint-config-standard-react eslint-plugin-react
+$ npm i -D eslint-plugin-react
 ```
 
 add this to `.eslintrc`
 
-```
+``` json
 {
   "extends": ["dgeibi/react"]
 }
 ```
+
+extends `dgeibi/preact` instead for preact projects.
+
+## LICENSE
+
+[MIT](LICENSE)

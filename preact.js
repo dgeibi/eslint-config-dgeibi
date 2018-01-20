@@ -1,5 +1,7 @@
 module.exports = {
-  extends: [require.resolve('.'), require.resolve('./rules/preact')],
+  extends: ['./rules/base', './rules/preact', 'eslint-config-prettier'].map(
+    require.resolve
+  ),
   env: {
     browser: true,
   },

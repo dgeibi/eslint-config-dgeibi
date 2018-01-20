@@ -1,5 +1,7 @@
 module.exports = {
-  extends: [require.resolve('.'), require.resolve('./rules/react')],
+  extends: ['./rules/base', './rules/react', 'eslint-config-prettier'].map(
+    require.resolve
+  ),
   env: {
     browser: true,
   },

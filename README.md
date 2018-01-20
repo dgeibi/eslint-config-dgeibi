@@ -1,15 +1,15 @@
 # eslint-config-dgeibi
 
-ESLint Config base on `eslint-config-airbnb-base` without style rules.
+ESLint Config base on `eslint-config-airbnb-base` and `eslint-config-prettier`
 
 ## Install
 
 ### Common projects
 
-Install `eslint-config-dgeibi` and its peer dependencies:
+Install `eslint-config-dgeibi` and eslint:
 
 ```
-$ npm i -D eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-dgeibi babel-eslint
+$ npm i -D eslint eslint-config-dgeibi
 ```
 
 For common projects, add this to your `.eslintrc`
@@ -31,12 +31,6 @@ For legacy projects:
 ### (p)react projects
 
 The configs are copying from eslint-config-standard-react and eslint-config-standard-preact.
-
-Need to install `eslint-plugin-react`:
-
-```
-$ npm i -D eslint-plugin-react
-```
 
 add this to `.eslintrc`
 

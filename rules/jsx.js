@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['react'],
   rules: {
     'react/jsx-no-bind': [
       'error',

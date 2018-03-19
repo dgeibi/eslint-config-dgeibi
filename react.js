@@ -1,8 +1,14 @@
 module.exports = {
-  extends: ['./rules/base', './rules/react', 'eslint-config-prettier'].map(
-    require.resolve
-  ),
+  parser: 'babel-eslint',
+  plugins: ['babel', 'react'],
+  extends: [
+    'eslint-config-airbnb-base',
+    './rules/base',
+    './rules/react',
+    'eslint-config-prettier',
+  ].map(require.resolve),
   env: {
     browser: true,
+    es6: true,
   },
 }

@@ -12,17 +12,35 @@ Install `eslint-config-dgeibi` and eslint:
 $ npm i -D eslint eslint-config-dgeibi
 ```
 
-For common projects, add this to your `.eslintrc`
+If you want to format your source code, just install `prettier`
 
-``` json
+```
+$ npm i -D prettier
+```
+
+and create a `.prettierrc`, for example:
+
+```json
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
+```
+
+For common es6 projects, add this to your `.eslintrc`
+
+```json
 {
   "extends": ["dgeibi"]
 }
 ```
 
+For node, use `dgeibi/node`
+
 For legacy projects:
 
-``` json
+```json
 {
   "extends": ["dgeibi/legacy"]
 }
@@ -34,7 +52,7 @@ The configs are copying from eslint-config-standard-react and eslint-config-stan
 
 add this to `.eslintrc`
 
-``` json
+```json
 {
   "extends": ["dgeibi/react"]
 }

@@ -1,21 +1,16 @@
 module.exports = {
-  extends: require.resolve('eslint-config-airbnb-base'),
-  parser: 'babel-eslint',
-  plugins: ['babel'],
-  parserOptions: {
-    ecmaVersion: 2017,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      jsx: true,
-    },
-    sourceType: 'module',
-  },
+  root: true,
   rules: {
-    'no-use-before-define': [
-      'error',
-      {
-        functions: false,
-      },
-    ],
+    'class-methods-use-this': 'off',
+    'no-lonely-if': 'off',
+    'no-else-return': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'import/first': 'error',
+    'no-await-in-loop': 'off',
+    'no-prototype-builtins': 'off',
+    'default-case': 'warn',
+    'global-require': 'off',
+    'prefer-destructuring': 'off',
+    'no-underscore-dangle': 'off',
   },
 }

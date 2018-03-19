@@ -1,8 +1,7 @@
-const jsx = require('./jsx')
+const { rules } = require('./jsx')
 
 module.exports = {
-  plugins: jsx.plugins,
-  rules: jsx.rules,
+  rules,
   settings: {
     react: {
       pragma: 'h',

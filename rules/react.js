@@ -1,6 +1,5 @@
-const jsx = require('./jsx')
+const { rules } = require('./jsx')
 
 module.exports = {
-  plugins: jsx.plugins,
-  rules: Object.assign({}, jsx.rules, { 'react/no-unknown-property': 'error' }),
+  rules: Object.assign({ 'react/no-unknown-property': 'error' }, rules),
 }

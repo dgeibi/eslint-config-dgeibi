@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dgeibi",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "dgeibi's personal ESLint config",
   "main": "index.js",
   "author": "dgeibi",
@@ -20,12 +20,12 @@
     "prettier": "^1.13.7"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0-beta.3",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
   },
   "repository": {
     "type": "git",

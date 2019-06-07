@@ -12,5 +12,11 @@ module.exports = {
     'global-require': 'off',
     'prefer-destructuring': 'off',
     'no-underscore-dangle': 'off',
+    strict: 'off',
+    'no-restricted-syntax': 'off',
+    'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
+    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/extensions': 'off',
   },
 }

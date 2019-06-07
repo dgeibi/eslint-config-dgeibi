@@ -7,25 +7,24 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "precommit": "lint-staged",
     "format": "prettier --write \"**/*.js\""
   },
   "peerDependencies": {
-    "eslint": "^4.19.0 || ^5.2.0"
+    "eslint": "^5.16.0"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7"
+    "eslint": "^5.16.0",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "prettier": "^1.18.0"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.0",
+    "eslint-plugin-react": "^7.13.0"
   },
   "repository": {
     "type": "git",
@@ -45,5 +44,10 @@
       "eslint",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
